@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="dCp4AIsnIWzREro4l6kF">
+    <mxGraphModel dx="1213" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UwDcn8bf_StNogqicyJE-2" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, &amp;quot;Cascadia Mono&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token text string&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(2, 3, 2);&quot;&gt;Безопасность данных в PropDevelopment&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="50" width="550" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-4" value="" style="swimlane;startSize=0;" vertex="1" parent="UwDcn8bf_StNogqicyJE-10">
+          <mxGeometry y="101" width="550" height="210" as="geometry">
+            <mxRectangle x="20" y="270" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-7" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Утечка данных - Незначительный - данные и так публичны, утечка не меняет ситуацию&lt;/li&gt;&lt;li&gt;Потеря данных - Незначительный - можно восстановить из бэкапов или повторно опубликовать&lt;/li&gt;&lt;li&gt;Искажение данных - Значительный - если кто-то подменит цены или описание , это может ввести клиентов в заблуждение и навредить репутации&lt;/li&gt;&lt;li&gt;Некачественные данные - Незначительный - не влияет на безопасность, только на удобство&lt;/li&gt;&lt;li&gt;Обесценивание данных - Незначительный - данные не теряют ценность при раскрытии&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UwDcn8bf_StNogqicyJE-4">
+          <mxGeometry x="30" y="25" width="490" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-8" value="Публичные данные" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="UwDcn8bf_StNogqicyJE-10">
+          <mxGeometry x="310" width="240" height="101" as="geometry">
+            <mxRectangle x="310" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-9" value="&lt;div&gt;Каталог объектов недвижимости&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Информация о жилых комплексах&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Открытые новости и анонсы компании&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UwDcn8bf_StNogqicyJE-8">
+          <mxGeometry x="-5" y="31" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-11" value="Внутренние данные" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-12" value="&lt;div&gt;Внутренние отчёты отделов продаж и маркетинга&lt;/div&gt;&lt;div&gt;Логи работы систем (без персональных данных)&lt;/div&gt;&lt;div&gt;Внутренние бизнес-процессы и схемы&lt;/div&gt;&lt;div&gt;Список сотрудников (без ФИО, должностей и контактов)&lt;/div&gt;&lt;div&gt;Данные о проектах (без финансовой информации)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UwDcn8bf_StNogqicyJE-11">
+          <mxGeometry x="30" y="20" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="630" height="130" as="geometry">
+            <mxRectangle x="20" y="270" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-13" value="1. Утечка данных - Значительный - Может дать конкурентам информацию о стратегии, процессах, планах.&#xa;2. Потеря данных - Значительный - Потеря отчётов или логов может затруднить анализ и принятие решений&#xa;3. Искажение данных - Значительный - Подмена отчётов или логов может привести к ошибочным решениям&#xa;4. Некачественные данные - Незначительный - Не является риском безопасности, а проблемой качества&#xa;5. Обесценивание данных - Незначительный - Данные не теряют ценность при раскрытии" style="text;whiteSpace=wrap;" vertex="1" parent="UwDcn8bf_StNogqicyJE-14">
+          <mxGeometry x="15" y="30" width="615" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-16" value="Конфиденциальные данные" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="40" width="510" height="160" as="geometry">
+            <mxRectangle x="310" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-17" value="&lt;div&gt;&lt;div&gt;Персональные данные клиентов и собственников&amp;nbsp;&lt;/div&gt;&lt;div&gt;Финансовая информация: платежи, договоры, банковские реквизиты&lt;/div&gt;&lt;div&gt;Данные о сделках: статус сделки, условия, подписи, документы&lt;/div&gt;&lt;div&gt;Данные о ЖКХ: история оплат, задолженности, заявки на ремонт&lt;/div&gt;&lt;div&gt;Данные «Умного дома»: коды доступа, логи активности, управление устройствами&lt;/div&gt;&lt;div&gt;Логины и пароли (даже если хранятся хэшированными)&lt;/div&gt;&lt;div&gt;API-ключи и токены для интеграций с госорганами и партнёрами&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UwDcn8bf_StNogqicyJE-16">
+          <mxGeometry y="31" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-19" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Утечка данных - Критический - Раскрытие персональных данных (ФИО, телефоны, адреса) нарушает законодательство (152-ФЗ), влечёт штрафы, убытки и потерю доверия клиентов.&lt;/li&gt;&lt;li&gt;Потеря данных - Критический - Потеря данных о сделках, платежах или ЖКХ может привести к юридическим спорам, невозможности обслуживать клиентов.&lt;/li&gt;&lt;li&gt;Искажение данных - Критический -Изменение данных о сделке, оплате или доступе к квартире может привести к мошенничеству, потере имущества и судебным искам.&lt;/li&gt;&lt;li&gt;Некачественные данные -Значительный - Ошибки в данных (например, неверный адрес или сумма) могут привести к ошибкам в обслуживании, жалобам, потерям.&lt;/li&gt;&lt;li&gt;Обесценивание данных - Значительный -Если клиенты перестанут доверять компании, данные теряют ценность для бизнеса.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="201" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="970" y="447" width="505" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-21" value="" style="swimlane;startSize=0;" vertex="1" parent="UwDcn8bf_StNogqicyJE-25">
+          <mxGeometry y="116" width="500" height="180" as="geometry">
+            <mxRectangle x="20" y="270" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-22" value="&lt;ol&gt;&lt;li&gt;Утечка данных - Критический - Утечка ключей или админ-логинов позволяет злоумышленнику полностью контролировать систему&lt;/li&gt;&lt;li&gt;Потеря данных - Критический - Потеря ключей шифрования делает данные нечитаемыми, что эквивалентно их утрате&lt;/li&gt;&lt;li&gt;Искажение данных - Критический - Изменение политик безопасности или конфигураций может открыть систему для атак&lt;/li&gt;&lt;li&gt;Некачественные данные - Значительный - Неверные конфигурации могут привести к сбоям, но не являются прямым риском безопасности&lt;/li&gt;&lt;li&gt;Обесценивание данных - Критический - Если секретные данные становятся известны, компания теряет возможность защищать свои системы&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UwDcn8bf_StNogqicyJE-21">
+          <mxGeometry x="2.5" y="9" width="490" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-23" value="Секретные данные" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="UwDcn8bf_StNogqicyJE-25">
+          <mxGeometry width="505" height="116" as="geometry">
+            <mxRectangle x="310" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-24" value="&lt;div&gt;&lt;div&gt;Ключи шифрования (для баз данных, API, файлов)&lt;/div&gt;&lt;div&gt;Административные учётные записи с полным доступом&lt;/div&gt;&lt;div&gt;Конфигурации систем безопасности (правила firewall, политики IAM)&lt;/div&gt;&lt;div&gt;Скрипты и коды, позволяющие получить доступ к системам&lt;/div&gt;&lt;div&gt;Закрытые контракты с партнёрами и госорганами&lt;/div&gt;&lt;div&gt;Данные о безопасности (отчёты об уязвимостях, планы реагирования на инциденты)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UwDcn8bf_StNogqicyJE-23">
+          <mxGeometry y="20" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UwDcn8bf_StNogqicyJE-2" target="UwDcn8bf_StNogqicyJE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UwDcn8bf_StNogqicyJE-2" target="UwDcn8bf_StNogqicyJE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.998;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UwDcn8bf_StNogqicyJE-2" target="UwDcn8bf_StNogqicyJE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UwDcn8bf_StNogqicyJE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UwDcn8bf_StNogqicyJE-2" target="UwDcn8bf_StNogqicyJE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
